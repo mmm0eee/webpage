@@ -1,2 +1,2 @@
 # webpage
-Nyi Khant Moe
+Website hosted on GitHub Pages
