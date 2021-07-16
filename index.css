@@ -1,5 +1,11 @@
 body{
-    background-color: lightblue;
+    background-color: black;
     margin:0 auto;
 	text-align:center;
 }
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align:center;
+    font-size: 85px;
+    color: white;
+  }
