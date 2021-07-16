@@ -7,8 +7,46 @@
     <title>Website</title>
     <link rel="stylesheet" href="index.css" type="text/css">
     <script src="index.js"></script>
+    <script type="text/javascript" src="crawler.js">
+    /* Text and/or Image Crawler Script v1.53 (c)2009-2011 John Davenport Scheuer
+    as first seen in http://www.dynamicdrive.com/forums/
+    username: jscheuer1 - This Notice Must Remain for Legal Use
+    */
+    // download the js file from here http://www.dynamicdrive.com/dynamicindex2/crawler/crawler.js
+    </script>
 </head>
 <body>
     <h1>Hello</h1>
+    <div class="slideshow">
+	</div>
+
+
+<input type="button"
+onclick="marqueeInit.ar[0].stopMarquee = !marqueeInit.ar[0].stopMarquee;"
+value="Pause">
+<div class="images" id="slide">
+            <img src="images/ghiblione.jpg" width="309" height="668">
+            <img src="images/ghiblitwo.jpg" width="309" height="668">
+            <img src="images/ghiblithree.png" width="309" height="668">
+            <img src="images/ghiblifour.jpg" width="309" height="668">
+            <img src="images/ghiblifive.jpg" width="309" height="668">
+            <img src="images/ghiblisix.jpg" width="309" height="668">
+            <img src="images/ghibliseven.jpg" width="309" height="668">
+</div>
+
+<script type="text/javascript">
+marqueeInit({
+uniqueid: 'slide',
+style: {
+'align':'center',
+'padding': '2px',
+'width': '100%',
+'height':'auto'
+},
+inc: 2, //speed - pixel increment for each iteration of this marquee's movement
+mouse: 'false'//mouseover behavior ('pause' 'cursor driven' or false)
+
+});
+</script>
 </body>
 </html>
